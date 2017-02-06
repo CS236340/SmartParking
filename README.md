@@ -33,6 +33,7 @@ Create each bridge, foloowing the instruction on https://github.com/matrix-org/m
 Replace the `index.js` file with the one we provided, and download the correct `registration.yaml` file to the directory(`spm-registration.yaml` to the `spmBridge` directory etc.)
 
 ***Running Instructions***
+
 1. first you need to start the matrix server, in the synapse directory
 
     `cd ~/.synapse
