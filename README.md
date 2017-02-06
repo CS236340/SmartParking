@@ -7,6 +7,12 @@ We used matrix.org chat in order to relay masseges from the SPM to the providers
 
 We currently have support for 2 billing providers - CelloPark and Pango, each provider have his own bridge
 
+***IMPORTANT***
+Because we don't have CellopPark actual API, we used our own Mock, based on information we got from CelloPark regarding how thay expect to got information from us and how thay send their response.
+Because we don't have Pango actual API, we used our own Mock, based on assumption we made regarding how thay expect to got information from us and how thay send their response
+Keep in mind that the actual API may be diffrent, and the JSON object we send may change
+
+
 in order to run the systam:
 1. first you need to start the matrix server, in the synapse directory
     cd ~/.synapse
@@ -23,5 +29,14 @@ Cello Park bridge:
 Pango Bridge
   cd ~/.synapse/PangoBridge
   node index.js -p 9002
+  
+all this is true as long as you don'y change the location of the Bridge's Directorys or the port number
+if you wish to change the port number, you need to stop the homeserver using
+    synctl stop
+and then run, in the bridge directory:
+    node index.js -r -u "http://localhost:portNumber"
+where portNumber is the port you want to set
+after that, restart the homeserver using
+     synctl start
  
 
