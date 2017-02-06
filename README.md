@@ -13,7 +13,7 @@ Because we don't have CellopPark's actual API, we used our own Mock, based on in
 
 Because we don't have Pango's actual API, we used our own Mock, based on assumption we made regarding how thay expect to got information from us and how thay send their response.
 
-Keep in mind that the actual API may be diffrent, and the JSON object we send may change
+Keep in mind that the actual API may be diffrent, and the JSON object we send may change. see comments in the code itslef
 
 
 in order to run the system:
