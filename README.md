@@ -10,7 +10,9 @@ We currently have support for 2 billing providers - CelloPark and Pango, each pr
 
 ***IMPORTANT***
 Because we don't have CellopPark's actual API, we used our own Mock, based on information we got from CelloPark regarding how thay expect to got information from us and how thay send their response.
-Because we don't have Pango's actual API, we used our own Mock, based on assumption we made regarding how thay expect to got information from us and how thay send their response
+
+Because we don't have Pango's actual API, we used our own Mock, based on assumption we made regarding how thay expect to got information from us and how thay send their response.
+
 Keep in mind that the actual API may be diffrent, and the JSON object we send may change
 
 
