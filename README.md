@@ -16,14 +16,17 @@ Because we don't have Pango's actual API, we used our own Mock, based on assumpt
 Keep in mind that the actual API may be diffrent, and the JSON object we send may change. see comments in the code itslef
 
 
+
+You need to run a homeserver. we used synapse server, from https://github.com/matrix-org/synapse
+just replace the `homeserver.yaml` file that was created with the file we provided
 in order to run the system:
 1. first you need to start the matrix server, in the synapse directory
 
-    cd ~/.synapse
+    `cd ~/.synapse
     
     source ./bin/activate
     
-    synctl start
+    synctl start`
     
 2. you need to start each of the bridges, each one in his own dircetory
 the spm bridge:
