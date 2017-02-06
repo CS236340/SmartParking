@@ -32,15 +32,15 @@ the spm bridge:
   
 Cello Park bridge:
 
-  cd ~/.synapse/CpBridge
+  `cd ~/.synapse/CpBridge
   
-  node index.js -p 9001
+  node index.js -p 9001`
   
 Pango Bridge:
 
-  cd ~/.synapse/PangoBridge
+  `cd ~/.synapse/PangoBridge
   
-  node index.js -p 9002
+  node index.js -p 9002`
   
 All this is true as long as you don't change the location of the Bridge's Directorys or the port number
 if you wish to change the port number, you need to stop the homeserver using
