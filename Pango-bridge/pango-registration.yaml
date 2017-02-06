@@ -1,0 +1,12 @@
+id: 6bdde80f053c9c93d9cee8ea3fae96d98be3e6d8bc009d5937bb18ec75891bfa
+hs_token: 0fc81e6a31b6ab0d248da2755bcfa7bd3830d68d82552201917893e88097463e
+as_token: 90d4b73d2db5e7562c4abea5722a0bfcc751e874c2eb519bbc858aaa84ca751c
+namespaces:
+  users:
+    - exclusive: true
+      regex: '@Pango_.*'
+  aliases: []
+  rooms: []
+url: 'http://localhost:9002'
+sender_localpart: pangobot
+rate_limited: true
