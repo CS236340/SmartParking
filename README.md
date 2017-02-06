@@ -17,20 +17,25 @@ Keep in mind that the actual API may be diffrent, and the JSON object we send ma
 in order to run the system:
 1. first you need to start the matrix server, in the synapse directory
 
-    `cd ~/.synapse
+    cd ~/.synapse
     
     source ./bin/activate
     
-    synctl start`
+    synctl start
     
 2. you need to start each of the bridges, each one in his own dircetory
 the spm bridge:
+
   cd ~/.synapse/SpmBridge
   node index.js -p 9000
+  
 Cello Park bridge:
+
   cd ~/.synapse/CpBridge
   node index.js -p 9001
+  
 Pango Bridge
+
   cd ~/.synapse/PangoBridge
   node index.js -p 9002
   
