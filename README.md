@@ -16,8 +16,11 @@ Keep in mind that the actual API may be diffrent, and the JSON object we send ma
 
 in order to run the system:
 1. first you need to start the matrix server, in the synapse directory
+
     `cd ~/.synapse
+    
     source ./bin/activate
+    
     synctl start`
     
 2. you need to start each of the bridges, each one in his own dircetory
