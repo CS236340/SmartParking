@@ -1,0 +1,12 @@
+id: f3d3e01a6efa4f2de0dacc36bd43c9d271bb2f224ac12057ff5d1030f8865ed7
+hs_token: ebc66c1f01bbc2f477805379955ed6982fcff70df7344120e1e39b193948639e
+as_token: 9aea89c8058c4bf03f59a9e4a190144c1bed251a21c94a13f6d97130c6417b75
+namespaces:
+  users:
+    - exclusive: true
+      regex: '@CelloPark_.*'
+  aliases: []
+  rooms: []
+url: 'http://localhost:9001'
+sender_localpart: celloparkbot
+rate_limited: true
