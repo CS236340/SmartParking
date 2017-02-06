@@ -1,0 +1,14 @@
+{
+	"spmBridgePort": 9890, // random port for the bridge
+	"IP":"132.68.37.127", // the ip of the virtual machine running the server
+	"spmTimeout": 5000,
+	"providerBridgeTimeout": 25000,
+	"matrixUrl": "http://localhost:8008", //the matrix url, currently on local computer
+	"matrixDomain": "localhost",
+	"roomId":"!iIDMOxskbtXMGJIFAn:my.domain.name",
+	"matrixRegexUsersDomain": "@SPM_.*",
+	"matrixUsernameAndDomain": "@SPM_spm:my.domain.name",
+	"spmRegistrationPath": "spm-registration.yaml",
+	"SPMUrl":"http://132.68.36.162/SpmMock/api" // the SPM Mock URL, change to real URL
+}
+

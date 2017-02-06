@@ -1,0 +1,16 @@
+{
+	"cpBridgePort": 9898, // random port for the bridge
+	"IP":"132.68.37.127", // the ip of the virtual machine running the server
+	"cpTimeout": 10000,
+	"spmBridgeTimeout": 5000,
+	"matrixUrl": "http://localhost:8008", //the matrix url, currently on local computer
+	"matrixDomain": "localhost",
+	"roomId":"!iIDMOxskbtXMGJIFAn:my.domain.name",
+	"matrixRegexUsersDomain": "@CelloPark_.*",
+	"matrixUsernameAndDomain": "@CelloPark_cp:my.domain.name",
+	"spmUsernameAndDomain": "@SPM_spm:my.domain.name",
+	"matrixServerUrl":"http://localhost:8008",
+	"cpRegistrationPath": "cellopark-registration.yaml",
+	"cpUrl":"http://132.68.36.162/CelloParkMock/api" // the Cello Park Mock URL, change to real URL
+}
+

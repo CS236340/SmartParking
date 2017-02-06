@@ -1,0 +1,14 @@
+{
+	"pangoBridgePort": 9899, // random port for the bridge
+	"IP":"132.68.37.127", // the ip of the virtual machine running the server
+	"pangoTimeout": 10000,
+	"spmBridgeTimeout": 5000,
+	"matrixUrl": "http://localhost:8008", //the matrix url, currently on local computer
+	"matrixDomain": "localhost",
+	"roomId":"!iIDMOxskbtXMGJIFAn:my.domain.name",
+	"matrixRegexUsersDomain": "@Pango_.*",
+	"matrixUsernameAndDomain": "@Pango_pango:my.domain.name",
+	"spmUsernameAndDomain": "@SPM_spm:my.domain.name",
+	"pangoRegistrationPath": "pango-registration.yaml",
+	"pangoUrl":"http://132.68.36.162/PangoMock/api" // the Pango Mock URL, change to real URL
+}
