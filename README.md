@@ -19,7 +19,8 @@ Keep in mind that the actual API may be diffrent, and the JSON object we send ma
 
 You need to run a homeserver. we used synapse server, from https://github.com/matrix-org/synapse
 just replace the `homeserver.yaml` file that was created with the file we provided
-in order to run the system:
+
+***Running Instructions***
 1. first you need to start the matrix server, in the synapse directory
 
     `cd ~/.synapse
