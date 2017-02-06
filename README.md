@@ -27,25 +27,33 @@ in order to run the system:
 the spm bridge:
 
   `cd ~/.synapse/SpmBridge
+  
   node index.js -p 9000`
   
 Cello Park bridge:
 
   `cd ~/.synapse/CpBridge
+  
   node index.js -p 9001`
   
 Pango Bridge
 
   `cd ~/.synapse/PangoBridge
+  
   node index.js -p 9002`
   
 all this is true as long as you don'y change the location of the Bridge's Directorys or the port number
 if you wish to change the port number, you need to stop the homeserver using
+
    ` synctl stop`
+   
 and then run, in the bridge directory:
+
    ` node index.js -r -u "http://localhost:portNumber"`
+   
 where portNumber is the port you want to set
 after that, restart the homeserver using
+
      `synctl start`
  
 
