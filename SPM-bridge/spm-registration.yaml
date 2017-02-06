@@ -1,0 +1,12 @@
+id: 73644a6bd60fa05090176776f80816a3713254927f45fad9f5b2816e7e4b8fa7
+hs_token: 77820c62c9c3c04df3624d9a293f9ca09708f25b1526a368078003e72f526dd6
+as_token: b5d1927964e764134453836fe109f5bfe89056a23d9702bbfdd313638f6ad99a
+namespaces:
+  users:
+    - exclusive: true
+      regex: '@SPM_.*'
+  aliases: []
+  rooms: []
+url: 'http://localhost:9000'
+sender_localpart: kbot
+rate_limited: true
