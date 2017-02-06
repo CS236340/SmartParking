@@ -16,9 +16,21 @@ Because we don't have Pango's actual API, we used our own Mock, based on assumpt
 Keep in mind that the actual API may be diffrent, and the JSON object we send may change. see comments in the code itslef
 
 
+***SetUp Insructions***
 
 You need to run a homeserver. we used synapse server, from https://github.com/matrix-org/synapse
-just replace the `homeserver.yaml` file that was created with the file we provided
+just replace the `homeserver.yaml` file that was created with the file we provided.
+
+Download the 3 configuration files into the synapse directory. update the server IP in each of the files, and the providers URL.
+
+We used our Mock's URL's, not CelloPark's/Pango's real URL
+
+Create the Bridge diretory for every provider and the SPM. we gave them the names spmBridge, celloParkBridge & PangoBridge.
+if you change the names, you need to change the `app_services_config_files` field in the `homeserver.yaml` file.
+
+Create each bridge, foloowing the instruction on https://github.com/matrix-org/matrix-appservice-bridge/blob/master/HOWTO.md
+
+Replace the `index.js` file with the one we provided, and download the correct `registration.yaml` file to the directory(`spm-registration.yaml` to the `spmBridge` directory etc.)
 
 ***Running Instructions***
 1. first you need to start the matrix server, in the synapse directory
